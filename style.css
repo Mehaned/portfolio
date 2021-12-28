@@ -12,6 +12,7 @@ section {
     padding: 100px 200px;
 }
 /* End Rules */
+
 /* Start Header */
 header {
     width:100%;
@@ -21,7 +22,7 @@ header {
     align-items: center;
     padding: 10px 200px;
     position:fixed;
-    z-index: 999;
+    z-index: 999
 }
 
 .logo {
@@ -29,7 +30,7 @@ header {
     text-transform:uppercase;
     font-size: 1.8em;
     font-weight:700;
-    color:#3a6cf4;
+    color:#3a6cf4
 }
 
 .navigation a{
@@ -43,82 +44,77 @@ header {
 .navigation a:hover {
     color:#464a57
 }
-
 /* End Header */
+
 /* Start Section */
-    .main {
-        width: 100%;
-        min-height: 100vh;
-        display:flex;
-        align-items: center;
-        background-image: url('/img/frontend-developer.png') ;
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed
-    }
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    background-image: url('/img/frontend-developer.png') ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
+}
 
-    .main h2 {
-        color: #fff;
-        font-size:1.4em;
-        font-weight: 500;
-    }
+.main h2 {
+    color: #fff;
+    font-size:1.4em;
+    font-weight: 500
+}
 
-    .main h2 span {
-        display:inline-block;
-        margin-top:10px;
-        color: #081947;
-        font-size: 2.3em;
-        font-weight: 600
-    }
+.main h2 span {
+    display:inline-block;
+    margin-top:10px;
+    color: #081947;
+    font-size: 2.3em;
+    font-weight: 600
+}
 
-    .main h3 {
-        color: #fff;
-        font-size:2em;
-        font-weight: 600;
-        letter-spacing:1px;
-        margin-top: 10px;
-        margin-bottom: 30px;
-    }
+.main h3 {
+    color: #fff;
+    font-size:2em;
+    font-weight: 600;
+    letter-spacing:1px;
+    margin-top: 10px;
+    margin-bottom: 30px
+}
 
-    .main-btn {
-        text-decoration:none;
-        color: #fff;
-        background-color: #3b3d42;
-        font-size: 1.1em;
-        font-weight: 500;
-        display: inline-block;
-        padding: 0.9375em 2.1875em;
-        margin-bottom: 40px;
-        border-radius: 15px;
-        letter-spacing:1px;
-        transition: 0.7s ease;
-    }
+.main-btn {
+    text-decoration:none;
+    color: #fff;
+    background-color: #3b3d42;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    letter-spacing:1px;
+    transition: 0.7s ease
+}
 
-    .main-btn:hover {
-        background-color:#fff;
-        color: #000;
-        transform:scale(1.1)
-    }
+.main-btn:hover {
+    background-color:#fff;
+    color: #000;
+    transform:scale(1.1)
+}
 
-    .social-icons a {
-        font-size:1.7em;
-        font-weight: 600;
-        display:inline-block;
-        color: rgb(49, 38, 38);
-        padding-right:30px;
-    }
+.social-icons a {
+    font-size:1.7em;
+    font-weight: 600;
+    display:inline-block;
+    color: rgb(49, 38, 38);
+    padding-right:30px
+}
 
-    .social-icons a:hover {
-        color: #fff
-    }
+.social-icons a:hover {
+    color: #fff
+}
 /* End Section */
 
 /* Start Cards */
-/* .cards {
-    width: 100%;
-    min-height: 100vh
-} */
-
 .title {
     display:flex;
     justify-content:center;
@@ -131,9 +127,8 @@ header {
 .content {
     display:flex;
     justify-content:center;
-    /* align-items:center; */
     flex-direction:row;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 .card {
@@ -143,7 +138,7 @@ header {
     border-radius:10px;
     padding:25px;
     margin: 15px;
-    transition:0.7s ease;
+    transition:0.7s ease
 }
 
 .card:hover {
@@ -151,40 +146,34 @@ header {
 }
 
 .icon {
-    /* display:flex;
-    justify-content:center; */
     color:#3a6cf4;
     font-size:8em;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 
 .info {
-    text-align:center;
+    text-align:center
 }
+
 .info h3 {
-    /* display:flex;
-    justify-content:center; */
     margin-bottom: 30px;
     letter-spacing:2px;
     font-size: 1.2em;
     font-weight:700;
-    color:#3a6cf4;
+    color:#3a6cf4
 }
 
 .info p {
     font-size:1.4em;
     display:flex;
-    justify-content:center;
-    /* align-items: center; */
+    justify-content:center
 }
-
 /* End Cards */
+
 /* Start Projects */
 .projects {
-    /* background-color:#3b3d42; */
-    /* min-height: 100vh; */
-    background-color: #01A89B;
+    background-color: #01A89B
 }
 
 .projects h2 {
@@ -192,7 +181,7 @@ header {
 }
 
 .projects .content {
-    margin-top: 100px;
+    margin-top: 100px
 }
 
 .project-card {
@@ -203,7 +192,7 @@ header {
     overflow: hidden;
     background-color: #fff;
     margin: 20px;
-    transition:0.7s ease;
+    transition:0.7s ease
 }
 
 .project-card:hover {
@@ -211,20 +200,20 @@ header {
 }
 
 .project-card:hover .project-image {
-    opacity: 0.9;
+    opacity: 0.9
 }
 
 .project-image img{
-    width: 100%; 
+    width: 100%
 }
 
 .project-info {
-    padding:1em;
+    padding:1em
 }
 
 .project-category {
     font-size:0.8em;
-    color:#000;
+    color:#000
 }
 
 .project-title {
@@ -232,7 +221,7 @@ header {
     justify-content:space-between;
     text-transform: uppercase;
     font-weight: 800;
-    margin-top: 10px;
+    margin-top: 10px
 }
 
 .more-details  {
@@ -243,8 +232,8 @@ header {
 .more-details:hover {
     color:#98762b
 }
-
 /* End Projects */
+
 /* Start Content */
 .contact .icon {
     font-size:4.5em
@@ -252,30 +241,25 @@ header {
 
 .contact .info h3 {
     font-size:1.2em;
-    color: #000;
+    color: #000
 }
 
 .contact .info p {
-    font-size:1.2em;
+    font-size:1.2em
 }
 /* End Content */
+
 /* Start Footer */
 footer {
     display:flex;
     justify-content:space-between;
     padding: 2em;
-    background-color: #01A89B;
+    background-color: #01A89B
 }
-/* footer p {
-    padding: 0 200px
-} */
 
-/* footer .social-icons {
-    padding-right:100px;
-} */
 .copyright p {
     font-size:1.3em;
-    font-weight: 600;
+    font-weight: 600
 }
 .copyright span {
     color: #fff
@@ -313,7 +297,7 @@ footer {
 
     .content {
         flex-direction: column;
-        align-items: center;
+        align-items: center
     }
 
     footer {
@@ -323,7 +307,7 @@ footer {
         justify-content:space-between;
         padding: 60px 20px;
         font-size:12px;
-        align-items: center;
+        align-items: center
     }
 }
 
